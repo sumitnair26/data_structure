@@ -16,6 +16,7 @@ for ($i = 3; $i <= 32000; $i+=2) {
     }
     if ($isprime) $primes[$numprimes++] = $i;
 }
+//fscanf : The fscanf() function parses input from an open file according to a specified format. It returns the values parsed as an array, if only two parameters were passed.
 
 fscanf(STDIN,"%d",$T);
 
